@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/KDD99/KDD99/corrected
+data/KDD99/KDD99/kddcup.data
+data/KDD99/KDD99/kddcup.newtestdata_10_percent_unlabeled
+data/KDD99/KDD99/kddcup.testdata.unlabeled
+data/KDD99/KDD99/kddcup.testdata.unlabeled_10_percent
+data/KDD99/KDD99/kddcup.data.corrected
+data/KDD99/KDD99/kddcup.data_10_percent
+data/KDD99/KDD99/*.gz

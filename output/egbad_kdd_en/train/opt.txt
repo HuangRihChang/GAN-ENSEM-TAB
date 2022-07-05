@@ -1,0 +1,56 @@
+------------ Options -------------
+abnormal_class: 3
+alpha: 0.9
+arch: UNET
+batchsize: 64
+bayes: False
+beta1: 0.5
+dataroot: 
+dataset: KDD99
+device: cuda
+display: False
+display_id: 0
+display_port: 8097
+display_server: http://localhost
+droplast: True
+extralayers: 0
+isTrain: True
+isize: 32
+iter: 0
+load_weights: False
+lr: 0.002
+lr_decay_iters: 50
+lr_policy: lambda
+manualseed: -1
+metric: roc
+model: f-anogan
+n_D: 3
+n_G: 3
+n_cpu: 5
+name: egbad_kdd_en
+nc: 1
+ndf: 64
+ngf: 64
+ngpu: 1
+niter: 25
+niter_decay: 100
+nz: 32
+outf: ./output
+path: 
+phase: train
+print_freq: 100
+resume: 
+save_image_freq: 100
+save_test_images: False
+save_weight: True
+scale_con: 0.02
+setting: egbad
+sigma_lat: 1
+split: 1
+use_2disc: False
+verbose: False
+w_adv: 1
+w_con: 50
+w_enc: 1
+workers: 8
+-------------- End ----------------
